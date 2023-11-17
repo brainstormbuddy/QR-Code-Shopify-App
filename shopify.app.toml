@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "my-new-app"
+client_id = "f77e6814b708961fcc9183c4917bae22"
+application_url = "https://stood-reason-opinions-conjunction.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://stood-reason-opinions-conjunction.trycloudflare.com/auth/callback",
+  "https://stood-reason-opinions-conjunction.trycloudflare.com/auth/shopify/callback",
+  "https://stood-reason-opinions-conjunction.trycloudflare.com/api/auth/callback",
+  "https://stood-reason-opinions-conjunction.trycloudflare.com/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "adam-sims.myshopify.com"
