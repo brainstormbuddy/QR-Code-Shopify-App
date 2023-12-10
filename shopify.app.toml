@@ -2,7 +2,7 @@
 
 name = "my-new-app"
 client_id = "f77e6814b708961fcc9183c4917bae22"
-application_url = "https://stood-reason-opinions-conjunction.trycloudflare.com"
+application_url = "https://win-definitely-means-databases.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://stood-reason-opinions-conjunction.trycloudflare.com/auth/callback",
-  "https://stood-reason-opinions-conjunction.trycloudflare.com/auth/shopify/callback",
-  "https://stood-reason-opinions-conjunction.trycloudflare.com/api/auth/callback",
-  "https://stood-reason-opinions-conjunction.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://win-definitely-means-databases.trycloudflare.com/auth/callback",
+  "https://win-definitely-means-databases.trycloudflare.com/auth/shopify/callback",
+  "https://win-definitely-means-databases.trycloudflare.com/api/auth/callback",
+  "https://win-definitely-means-databases.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
